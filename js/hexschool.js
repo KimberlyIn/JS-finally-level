@@ -56,3 +56,4 @@ function menuToggle() {
 function closeMenu() {
     menu.classList.remove('openMenu');
 }
+
