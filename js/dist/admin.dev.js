@@ -94,7 +94,7 @@ orderList.addEventListener('click', function (e) {
 function changeOrderStatus(status, id) {
   var newStatus;
 
-  if (status == true) {
+  if (status == 'true') {
     newStatus = false;
   } else {
     newStatus = true;

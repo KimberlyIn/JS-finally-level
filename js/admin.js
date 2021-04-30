@@ -56,7 +56,7 @@ function getOrderList(){
             })
             // 判斷訂單處理狀態
             let orderStatus = '';
-            if(item.paid == 'true'){
+            if(item.paid == true){
                 orderStatus = '已處理';
             } else {
                 orderStatus = '未處理';
@@ -105,7 +105,7 @@ orderList.addEventListener('click', function(e){
 // 訂單狀態
 function changeOrderStatus(status,id){
     let newStatus;
-    if(status == true){
+    if(status == 'true'){
         newStatus = false;
     } else {
         newStatus = true;
